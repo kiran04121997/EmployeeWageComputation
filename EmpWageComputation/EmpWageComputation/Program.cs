@@ -12,11 +12,10 @@ namespace EmpWageComputation
         {
             Console.WriteLine("welcome to employeewage");
             EmployeeAttendence e=new EmployeeAttendence();
-            e.EmployeeAttendance1();
+            e.DailyEmployeeWage();
 
 
-
-            Console.ReadLine();
+         Console.ReadLine();
         }
     }
 }
