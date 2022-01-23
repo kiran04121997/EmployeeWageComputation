@@ -12,8 +12,8 @@ namespace EmpWageComputation
         {
             Console.WriteLine("welcome to employeewage");
             EmployeeAttendence e=new EmployeeAttendence();
-            e.DailyEmployeeWage();
-
+            e.MonthlyEmpWage();
+            
 
          Console.ReadLine();
         }
