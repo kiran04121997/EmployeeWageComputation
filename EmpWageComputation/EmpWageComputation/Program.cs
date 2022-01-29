@@ -11,11 +11,11 @@ namespace EmpWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to employeewage");
-            EmployeeAttendence e=new EmployeeAttendence();
-            e.MonthlyEmpWage();
-            
 
-         Console.ReadLine();
+            EmployeeAttendence.ComputeEmpwage("DMart", 20, 2, 10);
+            EmployeeAttendence.ComputeEmpwage("Reliance", 10, 4, 20);
+
+            Console.ReadLine();
         }
     }
 }
