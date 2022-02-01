@@ -12,12 +12,11 @@ namespace EmpWageComputation
         {
             Console.WriteLine("Hello welcome to EmpWage problem");
 
-            EmployeeAttendence dMart = new EmployeeAttendence("DMart", 20, 2, 10);
-            EmployeeAttendence reliance = new EmployeeAttendence("Reliance", 10, 4, 10);
-            dMart.computeEmpWage();
-            Console.WriteLine(dMart.toString());
-            reliance.computeEmpWage();
-            Console.WriteLine(reliance.toString());
+            Console.WriteLine("Welcome to the Employee Wage Computation Problem");
+            EmpWageBuilderArray empWageBuilder = new EmpWageBuilderArray();
+            empWageBuilder.addCompanyEmpWage("DMart", 20, 20, 100);
+            empWageBuilder.addCompanyEmpWage("PVP", 30, 24, 160);
+            empWageBuilder.computeEmpWage();
             Console.ReadLine();
         }
     }
