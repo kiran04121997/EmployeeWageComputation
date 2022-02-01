@@ -10,11 +10,14 @@ namespace EmpWageComputation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to employeewage");
+            Console.WriteLine("Hello welcome to EmpWage problem");
 
-            EmployeeAttendence.ComputeEmpwage("DMart", 20, 2, 10);
-            EmployeeAttendence.ComputeEmpwage("Reliance", 10, 4, 20);
-
+            EmployeeAttendence dMart = new EmployeeAttendence("DMart", 20, 2, 10);
+            EmployeeAttendence reliance = new EmployeeAttendence("Reliance", 10, 4, 10);
+            dMart.computeEmpWage();
+            Console.WriteLine(dMart.toString());
+            reliance.computeEmpWage();
+            Console.WriteLine(reliance.toString());
             Console.ReadLine();
         }
     }
