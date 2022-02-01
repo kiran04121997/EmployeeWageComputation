@@ -9,12 +9,12 @@ namespace EmpWageComputation
     internal class SwitchCase
     {
         /* Here we are implementing Switch Case statement
-        * Using  Constant Variables.
-        * In case value we cann't pass instance/local or static variables.
-        * so using Constant variables
-        * Constant variable name will always be in capital Letter.
-        * if we have 2 word then use underscore sign. 
-        */
+          * Using  Constant Variables.
+          * In case value we cann't pass instance/local or static variables.
+          * so using Constant variables
+          * Constant variable name will always be in capital Letter.
+          * if we have 2 word then use underscore sign. 
+          */
         public static void PerformSwitchUse()
         {
             int emphrs;
@@ -39,5 +39,5 @@ namespace EmpWageComputation
             Console.WriteLine("Employee total Wage: " + totalWage);
         }
     }
-    }
+}
 
