@@ -8,8 +8,8 @@ namespace EmpWageComputation
 {
     internal class EmployeeAttendence
     {
-        public const int IS_FULL_TIME = 1, EMP_RATE_PER_HOUR = 20;
-        int empHrs = 0, empWage = 0;
+        public const int IS_FULL_TIME = 1;
+        int empHrs = 0, empWage = 0, EMP_RATE_PER_HOUR = 20; 
         public void DailyEmployeeWage()
         {
             Random random = new Random();
